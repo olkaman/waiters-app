@@ -14,7 +14,7 @@
     text-decoration: none;
     color: #fff;
     opacity: 0.5;
-    transition: 0.3s all;
+    transition: $transition;
 
     &:hover {
       color: #fff;

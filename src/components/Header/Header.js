@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={styles.headerWrapper}>
       <h4>waiters.app</h4>
-      <Link to={<Home />}>Home</Link>
+      <Link to='/'>Home</Link>
     </div>
   );
 };

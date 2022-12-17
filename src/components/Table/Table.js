@@ -1,16 +1,17 @@
-import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import styles from './Table.module.scss';
 import clsx from 'clsx';
+import { Link } from 'react-router-dom';
 
-const Table = () => {
+const Table = ({ id, name, status }) => {
   return (
-    <div className={clsx(styles.wrapper, 'flex', 'alignItems')}>
-      <div className={clsx(styles.tableWrapper, 'flex', 'alignItems')}>
-        <h4>Table 1</h4>
-        <span>Status: Reserved</span>
+    <div key={id} className={clsx(styles.wrapper, 'flex', 'alignItems')}>
+      <div className={clsx(styles.tableInfoWrapper, 'flex', 'alignItems')}>
+        <h4>{name}</h4>
+        <span>Status: {status}</span>
       </div>
-      <Button variant='primary'>Show more</Button>
+      <Link to={'/details/' + id} className={styles.button}>
+        Show more
+      </Link>
     </div>
   );
 };

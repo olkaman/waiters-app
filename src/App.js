@@ -8,7 +8,7 @@ function App() {
     <Container>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/details:id' element={<TablesDetails />} />
+        <Route path='/details/:tableId' element={<TablesDetails />} />
       </Routes>
     </Container>
   );

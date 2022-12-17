@@ -1,12 +1,12 @@
 import Header from '../../components/Header/Header';
-import Table from '../../components/Table/Table';
+import TableList from '../../components/TableList/TableList';
 
 const Home = () => {
   return (
     <div>
       <Header />
       <h1>All tables</h1>
-      <Table />
+      <TableList />
     </div>
   );
 };
