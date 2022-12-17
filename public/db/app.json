@@ -1,3 +1,39 @@
 {
-  "tables": []
+  "tables": [
+    {
+      "name": "Table 1",
+      "status": "Reserved",
+      "people": 1,
+      "maxPeople": 1,
+      "bill": 45
+    },
+    {
+      "name": "Table 2",
+      "status": "Free",
+      "people": 1,
+      "maxPeople": 1,
+      "bill": 45
+    },
+    {
+      "name": "Table 3",
+      "status": "Busy",
+      "people": 1,
+      "maxPeople": 1,
+      "bill": 45
+    },
+    {
+      "name": "Table 4",
+      "status": "Cleaning",
+      "people": 1,
+      "maxPeople": 1,
+      "bill": 45
+    },
+    {
+      "name": "Table 5",
+      "status": "Busy",
+      "people": 1,
+      "maxPeople": 1,
+      "bill": 45
+    }
+  ]
 }

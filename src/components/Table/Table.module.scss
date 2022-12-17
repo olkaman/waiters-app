@@ -1,0 +1,13 @@
+@import '../../styles/settings.scss';
+
+.wrapper {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: $gray 1px solid;
+  padding: 24px 0;
+}
+
+.tableWrapper {
+  width: 300px;
+  justify-content: space-between;
+}
