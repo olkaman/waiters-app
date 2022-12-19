@@ -9,7 +9,7 @@ const Table = ({ id, name, status }) => {
         <h4>{name}</h4>
         <span>Status: {status}</span>
       </div>
-      <Link to={'/details/' + id} className={styles.button}>
+      <Link to={'/details/' + id} className='button'>
         Show more
       </Link>
     </div>

@@ -8,7 +8,7 @@ const TableList = () => {
   return (
     <section>
       {tables.map((table) => (
-        <Table key={table.id} name={table.name} status={table.status} />
+        <Table key={table.id} name={table.name} status={table.status} id={table.id} />
       ))}
     </section>
   );

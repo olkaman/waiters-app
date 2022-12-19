@@ -7,7 +7,8 @@ import { fetchTables } from '../../redux/tablesReducer';
 const Home = () => {
   const dispatch = useDispatch();
 
-  useEffect(() => fetchTables(dispatch), [dispatch]);
+  useEffect(() => dispatch(fetchTables()), [dispatch]);
+
   return (
     <div>
       <Header />
